@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="description" content="Curso HTML"/>
+	<meta name="keywords" content="HTML, CSS, HTML5, CSS3, Javascript"/>
+	<title>GAGA's Lab</title>
+	<link rel="stylesheet" type="text/css" href="css/Estilos_BMP.css">
+</head>
+	<header>
+
+		<div class="contendeor" id="ocho" onclick="openSlideMenu()">
+			<img class="logo" src="img/BMP_logo.png">
+		</div>
+
+		<div class="contendeor" id="uno">
+			<img class="icon" src="img/Historia.png">
+			<p class="texto"><a href="#" class="enlace">Historia</a></p>
+		</div>
+
+		<div class="contendeor" id="dos">
+			<img class="icon" src="img/Integrantes.png">
+			<p class="texto"><a href="#" class="enlace">Integrantes</a></p>
+		</div>
+
+		<div class="contendeor" id="tres">
+			<img class="icon" src="img/Publicaciones.png">
+			<p class="texto"><a href="#" class="enlace">Publicaciones</a></p>
+		</div>
+
+		<div class="contendeor" id="cuatro">
+			<img class="icon" src="img/Proyectos.png">
+			<p class="texto"><a href="#" class="enlace">Proyectos</a></p>
+		</div>
+
+		<div class="contendeor" id="cinco">
+			<img class="icon" src="img/Graduados.png">
+			<p class="texto"><a href="#" class="enlace">Graduados</a></p>
+		</div>
+
+		<div class="contendeor" id="seis">
+			<img class="icon" src="img/Cursos.png">
+			<p class="texto"><a href="#" class="enlace">Cursos</a></p>
+			<div class="submenu" id="uno">
+				<p class="subtexto"><a href="#" class="enlace">Bioinformática</a></p></div>
+			<div class="submenu" id="dos">
+				<p class="subtexto"><a href="#" class="enlace">Biología Molecular</a></p></div>
+			<div class="submenu" id="tres">
+				<p class="subtexto"><a href="#" class="enlace">Biotecnología Vegetal</a></p></div>
+		</div>
+
+		<div class="contendeor" id="siete">
+			<img class="icon" src="img/Galeria.png">
+			<p class="texto"><a href="#" class="enlace">Galería</a></p>
+		</div>
+
+	</header>
+<body>
+
+	<div id="side-menu" class="side-nav">
+	<a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	<a href="#">Inicio</a>
+	<a href="#">CIBNOR</a>
+	<a href="#">Nuestros productos</a>
+	<a href="#">Registrate</a>
+	<a href="#">Contacto</a>
+	<a href="#">Facebook</a>
+	</div>
+
+	<section class="noticia">
+		<div class="noticia">
+			<h2>Invitación Lunes 10 de Septiembre Seminario</h2>
+			<p id="titulo">Estatus Nacional e Internacional que guarda la Regulación de las nuevas técnicas de edición genética</p>
+			<p id="ponente"><cite>Dra. Nathalie Campos-Reales (CIBIOGEM-MEXICO)</cite></p>
+			<p id="resumen">Con motivo de la inquietud de algunos investigadores que han preguntado sobre la regulación en materia de OGMs que involucran técnicas como: CRISPR-Cas9, hemos invitado a la Dra. Nathalie Campos-Reales de la Comisión Intersecretarial de Bioseguridad de los Organísmos Genéticamente Modificados (CIBIOGEM) a un seminario extraordinario que tiene como Objetivo aclarar dudas, conocer la posición actual de los grupos regulatorios (principalmente de E.U, Europa y México) y retroalimentar dichas posiciones.</p>
+		</div>
+	</section>
+
+	<script type="text/javascript">
+	function openSlideMenu(){
+		document.getElementById('side-menu').style.width='150px';
+		document.getElementById('main').style.marginleft='250px';
+	}
+	function closeSlideMenu(){
+		document.getElementById('side-menu').style.width='0px';
+		document.getElementById('main').style.marginleft='0px';
+	}
+	</script>
+
+	<!--
+	<section>
+		<article>
+			<!--<header>
+					<hgroup>
+						<h1>Título del mensaje 1</h1>
+						<h2>Subtitulo del mensaje 1</h2>
+						<cite>Julio Hernández</cite>
+					</hgroup>
+					<time datetime="2018-09-06" pubdate> Publicado el 06/09/18</time>
+
+			</header>
+			Este es el texto de mi primer mensaje
+			<p>Aquí va un párrafo</p>
+
+			<figure>
+				<img src="http://nimbb.upd.edu.ph/wp-content/uploads/2016/06/PMBPVL-logo-152x300.png">
+				<figcaption>
+					Esta es la imágen del primer mensaje
+				</figcaption>
+			</figure>
+
+			<footer>
+				<p>Comentarios (0)</p>
+			</footer>
+
+		</article>
+
+		<article>
+			<!--<header>
+				<hgroup>
+					<h1>Título del mensaje 2</h1>
+					<h2>Subtítulo del mensaje 2</h2>
+				</hgroup>
+				<p>Publicado el 05/09/18</p>
+			</header>
+			Este es el texto de mi segundo mensaje
+			<footer>
+				<p>Comentarios (0)</p>
+			</footer>
+		</article>
+
+	</section>
+
+	<aside>
+		<blockquote>Mensaje Número 1</blockquote>
+		<blockquote>Mensaje Número 2</blockquote>
+	</aside>
+
+	<footer>
+		<small>
+			Todos los Derechos Reservados &copy; 2018-2019
+			<ul>
+			<li><a href="#">Contacto</a></li>
+			<li><a href="#">Reportar fallas</a></li>
+			</ul>
+		</small>
+	</footer>
+	-->
+
+</body>
+<footer><small>Todos los Derechos Reservados &copy; 2018-2019</small></footer>
+</html>
