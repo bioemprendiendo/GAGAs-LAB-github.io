@@ -217,6 +217,11 @@ p#resumen {
 	text-align: justify;
 }
 
+.video {
+	margin: auto;
+}
+	
+
 footer {
 	margin: auto;
 	text-align: center;
